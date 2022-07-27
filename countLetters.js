@@ -10,7 +10,7 @@ function countLetters(string) {
   let result = {};
 
   for (let letter of string) {
-    if (string[letter] !== ' ') {
+    if (letter !== ' ') {
       if (result[letter]) {
         result[letter] += 1;
       } else {
