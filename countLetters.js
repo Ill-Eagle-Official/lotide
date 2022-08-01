@@ -21,4 +21,4 @@ function countLetters(string) {
   return result;
 };
 
-console.log(countLetters('my name jeff'));
+module.exports = countLetters;

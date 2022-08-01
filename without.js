@@ -23,6 +23,8 @@ const without = function(source, toRemove) {
   return source.filter(leaveIt => leaveIt != toRemove);
 };
 
-const words = ["hello", "world", "lighthouse"];
-without(words, ["lighthouse"]); 
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
+module.exports = without;
+
+// const words = ["hello", "world", "lighthouse"];
+// without(words, ["lighthouse"]); 
+// assertArraysEqual(words, ["hello", "world", "lighthouse"]);

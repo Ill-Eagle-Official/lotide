@@ -40,6 +40,4 @@ function eqObjects(object1, object2) {
   return output;
 }
 
-const ab = { a: "1", b: "2" };
-const ba = { a: "1", b: "2" };
-assertEqual(eqObjects(ab, ba), true);
+module.exports = eqObjects;
