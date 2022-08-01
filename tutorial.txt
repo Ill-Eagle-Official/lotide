@@ -1,0 +1,15 @@
+To use the insert mode in vim, press 'i' or 'a'
+
+Capital Y copies a line of text to the buffer!
+Capital Y copies a line of text to the buffer!
+
+Capital P pastes the copied line to the current position!
+
+dd will delete a whole line of text! It also allows the deleted line to be pasted.
+
+yy copies a whole line of text!!
+yy copies a whole line of text!!
+
+:w allows you to save a file
+
+:wq saves the file and quits vim!!
